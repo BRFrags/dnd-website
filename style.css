@@ -1,0 +1,137 @@
+body {
+    font-family: 'Swis721 BT', Garamond;
+    background-color: rgb(27, 27, 27);
+}
+
+.page_container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    width: auto;
+    background-color: #035642;
+    overflow: hidden;
+    font-family: Garamond;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.dnd_logo img {
+    width: 150px;
+    float: left;
+    margin:  0 20px 20px 20px;
+}
+
+.element_text {
+    color: white;
+}
+
+.head_title h1 {
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+nav {
+    padding: 1px 0;
+    background-color: #c7b375;
+    clear: both;
+}
+nav ul{
+    list-style-type: none;
+}
+
+.button li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 40px;
+
+}
+
+.button li :hover {
+    transition: 0.2s;
+    color: #c60c30;
+
+}
+
+a {
+    font-size: 25px;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    color: black;
+    font-size: x-large;
+    margin: 20px 0 20px 20px;
+}
+
+main h1 {
+    color: #035642;
+}
+
+main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+main a {
+    color: #000;
+}
+
+main a:hover {
+    color: #c60c30;
+    text-decoration: underline;
+}
+
+main img {
+    width: 560px;
+    float: left;
+    margin: 10px;
+}
+
+.text_box {
+    overflow: hidden;
+    width: 700px;
+    background-color: #c5b997;
+    box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.281);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 40px 0;
+}
+
+footer {
+    clear: both;
+    background-color: #035642;
+    overflow: hidden;
+}
+
+.footer_accent {
+    padding: 5px auto;
+    overflow: hidden;
+    background-color: #c60c30;
+}
+
+.useful_links ul {
+    list-style-type: none;
+    float: left;
+}
+
+.useful_links li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 14px 10px;
+}
+
+.contact_details h2{
+    float: right;
+    padding: 14px 20px;
+}
